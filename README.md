@@ -4,7 +4,7 @@ Python Script to poll for biometric logs and push to ERPNext via API.
 ## Instructions to run this script
 1. Install python3.6+ and git (python versions below 3.6 is **NOT** supported)
 2. Clone this repository using `git clone https://github.com/frappe/push-biometric-erpnext`
-3. Setup dependencies using `cd push-biometric-erpnext && python3.7 -m venv venv && source venv/bin/activate && pip install -r requirements.txt`
+3. Setup dependencies using `cd push-biometric-erpnext && python3.7 -Im venv venv && source venv/bin/activate && pip install -r requirements.txt`
 4. Setup `local_config.py` by making a copy of and renaming `local_config.py.template` file. ([Learn More](#Note-on-setting-up-local-config))
 5. Run this script using `python3.7 push_to_erpnext.py`
 
